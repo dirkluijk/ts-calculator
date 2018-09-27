@@ -100,10 +100,10 @@ function tokenize(expression: string): string[] {
     }, []);
 }
 
-export function calculate(expression: string): number {
-  return Number(rpn(
+export function calculate(expression: string): Big {
+  return rpn(
     yard(
       tokenize(expression)
     )
-  ));
+  );
 }
