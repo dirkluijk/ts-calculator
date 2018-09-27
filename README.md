@@ -17,3 +17,7 @@ import { calculate } from '@dirkluijk/calculator';
 
 calculate("3 + 4 * 3"); // 16
 ```
+
+## Lorem
+
+Lorem ipsum dolor sid amed.
