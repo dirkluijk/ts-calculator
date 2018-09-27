@@ -4,7 +4,8 @@
   "description": "A simple mathematical expression parser",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "release": "tsc && standard-version"
   },
   "repository": "https://github.com/dirkluijk/ts-calculator",
   "author": "Dirk Luijk",
@@ -15,6 +16,7 @@
     "big.js": "^5.1.2"
   },
   "devDependencies": {
+    "standard-version": "^4.4.0",
     "typescript": "^3.1.1"
   }
 }
