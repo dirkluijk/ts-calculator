@@ -20,6 +20,17 @@
         "talk",
         "test"
       ]
+    },
+    {
+      "login": "YoeriNijs",
+      "name": "Yoeri Nijs",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4572798?v=4",
+      "profile": "http://www.yoerinijs.nl",
+      "contributions": [
+        "question",
+        "doc",
+        "tutorial"
+      ]
     }
   ]
 }
