@@ -5,7 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "release": "tsc && standard-version"
+    "release": "tsc && standard-version",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "repository": "https://github.com/dirkluijk/ts-calculator",
   "author": "Dirk Luijk",
@@ -19,6 +21,7 @@
     "big.js": "^5.0.0"
   },
   "devDependencies": {
+    "all-contributors-cli": "^5.4.0",
     "standard-version": "^4.4.0",
     "typescript": "^3.1.1"
   }
