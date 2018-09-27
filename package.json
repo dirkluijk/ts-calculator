@@ -1,0 +1,20 @@
+{
+  "name": "@dirkluijk/calculator",
+  "version": "0.1.0",
+  "description": "A simple mathematical expression parser",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/dirkluijk/ts-calculator",
+  "author": "Dirk Luijk",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@types/big.js": "^4.0.5",
+    "big.js": "^5.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.1"
+  }
+}
